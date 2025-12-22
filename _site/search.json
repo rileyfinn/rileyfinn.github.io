@@ -11,6 +11,20 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "I am a researcher in the conservation decisons lab at UBC. I am primarly interesting applying principals of decision analysis to problems of stewarding ecosystems and managing endangered species."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "This is to test whether I can write about my project here."
+  },
+  {
+    "objectID": "about.html#riley-finn",
+    "href": "about.html#riley-finn",
+    "title": "About",
+    "section": "",
+    "text": "I am a researcher in the conservation decisons lab at UBC. I am primarly interesting applying principals of decision analysis to problems of stewarding ecosystems and managing endangered species."
   }
 ]

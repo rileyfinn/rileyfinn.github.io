@@ -2,18 +2,28 @@ project:
   type: website
 
 website:
-  title: "rileyfinn.github.io"
+  title: "Riley Finn"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
+    tools:
+      - icon: github
+        href: https://github.com/rileyfinn
+      - icon: substack
+        href: https://substack.com/@rileyfinn?
+
 
 format:
   html:
-    theme: cosmo
+    theme: sandstone
     css: styles.css
     toc: true
+    backgroundcolor: "#E6D69E"
 
 editor: visual
 

@@ -1,9 +1,10 @@
 ---
 title: "About"
+about: 
+  template: trestles
+  image: images/IMG_2134.jpeg
 ---
 
-About this site
+## Riley Finn
 
-```{r}
-1 + 1
-```
+I am a researcher in the conservation decisons lab at UBC. I am primarly interesting applying principals of decision analysis to problems of stewarding ecosystems and managing endangered species.
