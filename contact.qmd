@@ -1,0 +1,5 @@
+---
+title: "Contact"
+---
+
+You can get in touch with me at [riley.finn\@ubc.ca]((mailto:info@example.com))

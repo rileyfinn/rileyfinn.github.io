@@ -4,6 +4,7 @@ project:
 website:
   title: "Riley Finn"
   navbar:
+    logo: images/salmon.png
     left:
       - href: index.qmd
         text: Home
@@ -11,11 +12,25 @@ website:
         text: About
       - href: projects.qmd
         text: Projects
+      - href: tools.qmd
+        text: Interactive
+      - href: publications.qmd
+        text: Publications
+    right: 
+      - href: contact.qmd
+        text: Contact
+      - href: updates.qmd
+        text: Updates
     tools:
       - icon: github
         href: https://github.com/rileyfinn
       - icon: substack
         href: https://substack.com/@rileyfinn?
+  page-footer: 
+    left: "Copyright 2025, Riley Finn"
+    center: |
+      ![](images/salmon.png){width=150px}
+    
 
 
 format:
@@ -23,7 +38,7 @@ format:
     theme: sandstone
     css: styles.css
     toc: true
-    backgroundcolor: "#E6D69E"
+    backgroundcolor: "#dbd3b8"
 
 editor: visual
 

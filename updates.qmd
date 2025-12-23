@@ -1,0 +1,6 @@
+---
+title: "Updates"
+listing:
+  contents: posts
+  type: grid
+---

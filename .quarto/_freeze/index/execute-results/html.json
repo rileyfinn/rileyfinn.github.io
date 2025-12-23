@@ -1,8 +1,8 @@
 {
-  "hash": "daea9678b4410c000f481b763dbcf6c2",
+  "hash": "2264c5f0f674b3d6578e90933d822a82",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"riley finn\"\n---\n\n\nRiley Finn is a\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
+    "markdown": "---\ntitle: \"riley finn\"\n---\n\n\n:::{.column-page}\n\\![\\](images/20200509_195416.JPEG)\n:::\n\nRiley Finn is a\n\nCan I chnage things on the fly?\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
     "supporting": [
       "index_files"
     ],

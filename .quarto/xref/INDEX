@@ -7,5 +7,23 @@
   },
   "projects.qmd": {
     "projects.html": "2e24bf9d"
+  },
+  "contact.qmd": {
+    "contact.html": "3cc4170b"
+  },
+  "publications.qmd": {
+    "publications.html": "6cc1a3d5"
+  },
+  "tools.qmd": {
+    "tools.html": "6e678776"
+  },
+  "posts/ccce_summary.qmd": {
+    "ccce_summary.html": "91398ff0"
+  },
+  "updates.qmd": {
+    "updates.html": "8caca396"
+  },
+  "posts/ce_clusters.qmd": {
+    "ce_clusters.html": "e37d8871"
   }
 }

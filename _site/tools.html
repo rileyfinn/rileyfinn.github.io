@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Riley Finn</title>
+<title>Riley Finn - Interactive Tools</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,6 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -95,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
@@ -103,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./tools.html"> 
+    <a class="nav-link active" href="./tools.html" aria-current="page"> 
 <span class="menu-text">Interactive</span></a>
   </li>  
   <li class="nav-item">
@@ -136,43 +137,72 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
+   
   <ul>
-  <li><a href="#about-me" id="toc-about-me" class="nav-link active" data-scroll-target="#about-me">About Me</a></li>
-  <li><a href="#interests" id="toc-interests" class="nav-link" data-scroll-target="#interests">Interests</a></li>
-  <li><a href="#cv" id="toc-cv" class="nav-link" data-scroll-target="#cv">CV</a></li>
+  <li><a href="#teaching-spatial-optimization" id="toc-teaching-spatial-optimization" class="nav-link active" data-scroll-target="#teaching-spatial-optimization">Teaching Spatial Optimization</a></li>
+  <li><a href="#bayesian-network-cumulative-effects" id="toc-bayesian-network-cumulative-effects" class="nav-link" data-scroll-target="#bayesian-network-cumulative-effects">Bayesian Network Cumulative Effects</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<div class="quarto-about-trestles content">
-  <div class="about-entity">
-    <img src="images/IMG_2134.jpeg" class="about-image
-  rounded " style="width: 20em;">
+<main class="content" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Riley Finn</h1>
+<h1 class="title">Interactive Tools</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-
-<section id="about-me" class="level2">
-<h2 data-anchor-id="about-me">About Me</h2>
-<p>I am a researcher in the <a href="https://www.taramartin.org/about/">conservation decisons lab</a> at UBC. I am primarly interesting applying principles of decision analysis to problems of stewarding ecosystems and managing endangered species.</p>
-</section>
-<section id="interests" class="level2">
-<h2 data-anchor-id="interests">Interests</h2>
-</section>
-<section id="cv" class="level2">
-<h2 data-anchor-id="cv">CV</h2>
 
 
-</section>
-</main></div>
+<p>I have a particular interest in extending the products of my research into interactive tools that can be used for teaching and supporting decisons making. I believe that many concepts and ideas have been developed with in the scientific literature to aid in the managment of cumulative effects but their impact is limited by technological development.</p>
+<section id="teaching-spatial-optimization" class="level3">
+<h3 class="anchored" data-anchor-id="teaching-spatial-optimization">Teaching Spatial Optimization</h3>
+<div>
+
 </div>
- <!-- /main -->
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p>Spatial optmization is a widely used tool for conservation planning, but it can be a difficult concept to teach. To help with this I developed an interactive web application that allows students to explore how different parameters influence the results of a spatial optimization analysis.</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/CDF-teaching-app.jpg" class="img-fluid"></p>
+</div>
+</div>
+</div>
+</section>
+<section id="bayesian-network-cumulative-effects" class="level3">
+<h3 class="anchored" data-anchor-id="bayesian-network-cumulative-effects">Bayesian Network Cumulative Effects</h3>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/CCCE-app.jpg" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p>Part of the <a href="./projects.html#Central Coast Cumulative Effects">Central Coast Cumulative Effects Project</a> involved using Bayesian network models to predict the cumulative effects of future development scenarios on coastal ecosystems. To help communicate these results I developed an interactive web application that allows users to explore the predicted effects of different development scenarios on each of the focal species that were selected as well as any combination of those species. You can learn about the methods from the <a href="https://doi.org/10.1111/1365-2664.14659">paper</a>, and access the application <a href="https://ubcconservationdecisionslab.shinyapps.io/ccce_app_cc/">here</a>.</p>
+</div>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -193,6 +223,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
