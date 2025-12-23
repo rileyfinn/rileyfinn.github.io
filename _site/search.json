@@ -11,7 +11,7 @@
     "href": "about.html",
     "title": "Riley Finn",
     "section": "",
-    "text": "I am a researcher in the conservation decisons lab at UBC. I am primarly interesting applying principles of decision analysis to problems of stewarding ecosystems and managing endangered species."
+    "text": "I am a researcher in the Conservation Decisions Lab at UBC. I am primarly interested in applying principles of decision analysis to problems of stewarding ecosystems and managing endangered species.\nI work remotely from my home in Snuneymuxw Territory, also known as Nanaimo, British Columbia, Canada. I am originally from Baden, Ontario or the traditional territory of the Chonnonton, Anishnaabeg, Haudenosaunee, and Mississauga peoples.\nI am commited to reconciliation with Indigenous peoples and to supporting Indigenous sovereignty. I believe that achieving these goals requires humility and openness to learning. I have a deep interest in history and how understanding the historical context of the places we live in can help us better understand our role in stewarding them.\nIn my spare time I enjoy mountain biking, gardening, and painting in watercolor."
   },
   {
     "objectID": "projects.html",
@@ -67,7 +67,7 @@
     "href": "about.html#about-me",
     "title": "Riley Finn",
     "section": "",
-    "text": "I am a researcher in the conservation decisons lab at UBC. I am primarly interesting applying principles of decision analysis to problems of stewarding ecosystems and managing endangered species."
+    "text": "I am a researcher in the Conservation Decisions Lab at UBC. I am primarly interested in applying principles of decision analysis to problems of stewarding ecosystems and managing endangered species.\nI work remotely from my home in Snuneymuxw Territory, also known as Nanaimo, British Columbia, Canada. I am originally from Baden, Ontario or the traditional territory of the Chonnonton, Anishnaabeg, Haudenosaunee, and Mississauga peoples.\nI am commited to reconciliation with Indigenous peoples and to supporting Indigenous sovereignty. I believe that achieving these goals requires humility and openness to learning. I have a deep interest in history and how understanding the historical context of the places we live in can help us better understand our role in stewarding them.\nIn my spare time I enjoy mountain biking, gardening, and painting in watercolor."
   },
   {
     "objectID": "about.html#interests",
@@ -81,7 +81,7 @@
     "href": "about.html#cv",
     "title": "Riley Finn",
     "section": "CV",
-    "text": "CV"
+    "text": "CV\n\nSummary of Skills\n\nExtensive experience with GIS analysis in both QGIS and ESRI platforms. Including some development of analytical scripts using Python, map design, and cartography.\nProficiency in the application of R for data carpentry, statistical analysis, and spatial analysis.\nExperience working in a variety of field environments using a range of scientific equipment.\nExperience with management of large datasets and version control including GitHub and Dropbox.\nStrong understanding of the principals of Decision Science and their application for resource management and conservation.\nFluency in English with excellent oral and written communication skills.\n\n\n\nEducation\n\n\nProfessional Experience\n\nLab Technician\nApril 2021-Present\n\nSpatial optimization to support decision making around the protection of diverse ecosystem values including groundwater, big trees, and a range of sensitive ecosystems on Salt Spring Island, BC.\nMapped cumulative effects of threats to multiple culturally significant species on Central Coast, BC.\nImplemented spatial Bayesian models, combining expert knowledge with mapped threats to forecast species health into the future.\nFacilitated expert elicitation discussions to inform the Priority Threat Management process.\nEngaged with ENGOs in the Lower Fraser Region involved in salmon habitat restoration to apply and improve salmon barrier restoration spatial optimization model.\nCoordinated the development of multiple academic papers"
   },
   {
     "objectID": "projects.html#central-coast-cumulative-effects",
@@ -95,6 +95,13 @@
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "You can get in touch with me at riley.finn@ubc.ca"
+    "text": "“All language is but a poor translation.”\n― Franz Kafka\n\nYou can get in touch with me at riley.finn@ubc.ca"
+  },
+  {
+    "objectID": "about.html#values-and-interests",
+    "href": "about.html#values-and-interests",
+    "title": "Riley Finn",
+    "section": "Values and Interests",
+    "text": "Values and Interests\nI am commited to reconciliation with Indigenous peoples and to supporting Indigenous sovereignty. I believe that achieving these goals requires humility and openness to learning. I have a deep interest in history and how understanding the context of the places we live in can help us better understand our role in stewarding them."
   }
 ]

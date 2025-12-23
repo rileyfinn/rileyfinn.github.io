@@ -10,12 +10,10 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - href: projects.qmd
-        text: Projects
-      - href: tools.qmd
-        text: Interactive
       - href: publications.qmd
         text: Publications
+      - href: tools.qmd
+        text: Interactive
     right: 
       - href: contact.qmd
         text: Contact
