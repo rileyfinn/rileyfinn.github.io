@@ -1,31 +1,24 @@
 ---
 title: "Interactive Tools"
+toc: FALSE
 ---
 
-I have a particular interest in extending the products of my research into interactive tools that can be used for teaching and supporting decisons making. I believe that many concepts and ideas have been developed with in the scientific literature to aid in the managment of cumulative effects but their impact is limited by technological development. 
+I have a particular interest in extending the products of my research into interactive tools that can be used for teaching and supporting decison making. I believe that many concepts and ideas have been developed within the scientific literature to aid in the managment of cumulative effects but their impact is limited by the tools at our disposal. Decision analysis research often involves the comparisons of mutliple different scenarios with value trade-offs. Intereactive tools allow decision makers to explore these results and how they change across space.
+
+In the future I would like to extend this approach into developing systems and work flows that make information stored in ditigal repositories legible to decision makers. I work Primarly in the R language and the Shiny framework for developing these tools. Below are a couple examples of past products with several more currently in development.
 
 ### Teaching Spatial Optimization
 
-::: {layout-ncol=2}
-
-Spatial optmization is a widely used tool for conservation planning, but it can be a difficult concept to teach. To help with this I developed an interactive web application that allows students to explore how different parameters influence the results of a spatial optimization analysis. 
+::: {layout-ncol="2"}
+Spatial optmization is a widely used tool for conservation planning, but it can be a difficult concept to teach. To help with this I developed an interactive web application that allows students to explore how different parameters influence the results of a spatial optimization analysis. Students explore how optimal protected areas change when different values are considered, including protection targets for different ecosystems, and whether econmic cost or groundwater recharge potential should be prioritized. This application is used in the CONS 440 class at the UBC Faculty of Foresty and Resource Stewardship.
 
 ![](images/CDF-teaching-app.jpg)
 :::
 
-
 ### Bayesian Network Cumulative Effects
 
-::: {layout-ncol=2}
-
+::: {layout-ncol="2"}
 ![](images/CCCE-app.jpg)
 
-
-Part of the [Central Coast Cumulative Effects Project](projects.qmd#Central Coast Cumulative Effects) involved using Bayesian network models to predict the cumulative effects of future development scenarios on coastal ecosystems. To help communicate these results I developed an interactive web application that allows users to explore the predicted effects of different development scenarios on each of the focal species that were selected as well as any combination of those species. 
-You can learn about the methods from the [paper](https://doi.org/10.1111/1365-2664.14659), and access the application [here](https://ubcconservationdecisionslab.shinyapps.io/ccce_app_cc/). 
+Bayesian network models can be used to predict the cumulative effects of future development scenarios. To help communicate these results I developed an interactive web application that allows users to explore the predicted effects of different development scenarios on Central Coast of British Columbia on each of the focal species, as well as any combination of those species. You can learn about the methods from the [paper](https://doi.org/10.1111/1365-2664.14659), and access the application [here](https://ubcconservationdecisionslab.shinyapps.io/ccce_app_cc/).
 :::
-
-
-
-
-

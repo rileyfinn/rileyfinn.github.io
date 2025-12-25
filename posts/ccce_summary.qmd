@@ -2,3 +2,8 @@
 title: "Mapping cumulative effects for the salmon forest"
 draft: TRUE
 ---
+
+## Front matter context
+Here I will write a plain languge summary of the Cumulative effects paper that I wrote.
+
+

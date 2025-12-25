@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -130,16 +130,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#teaching-spatial-optimization" id="toc-teaching-spatial-optimization" class="nav-link active" data-scroll-target="#teaching-spatial-optimization">Teaching Spatial Optimization</a></li>
-  <li><a href="#bayesian-network-cumulative-effects" id="toc-bayesian-network-cumulative-effects" class="nav-link" data-scroll-target="#bayesian-network-cumulative-effects">Bayesian Network Cumulative Effects</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -162,7 +153,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I have a particular interest in extending the products of my research into interactive tools that can be used for teaching and supporting decisons making. I believe that many concepts and ideas have been developed with in the scientific literature to aid in the managment of cumulative effects but their impact is limited by technological development.</p>
+<p>I have a particular interest in extending the products of my research into interactive tools that can be used for teaching and supporting decison making. I believe that many concepts and ideas have been developed within the scientific literature to aid in the managment of cumulative effects but their impact is limited by the tools at our disposal. Decision analysis research often involves the comparisons of mutliple different scenarios with value trade-offs. Intereactive tools allow decision makers to explore these results and they change across space.</p>
+<p>In the future I would like to extend this approach into developing systems and work flows that make information stored in ditigal repositories legible to decision makers. I work Primarly in the R language and the Shiny framework for developing these tools. Below are a couple examples of past products with several more currently in development.</p>
 <section id="teaching-spatial-optimization" class="level3">
 <h3 class="anchored" data-anchor-id="teaching-spatial-optimization">Teaching Spatial Optimization</h3>
 <div>
@@ -171,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<p>Spatial optmization is a widely used tool for conservation planning, but it can be a difficult concept to teach. To help with this I developed an interactive web application that allows students to explore how different parameters influence the results of a spatial optimization analysis.</p>
+<p>Spatial optmization is a widely used tool for conservation planning, but it can be a difficult concept to teach. To help with this I developed an interactive web application that allows students to explore how different parameters influence the results of a spatial optimization analysis. Students explore how optimal protected areas change when different values are considered. Those values include different levels of protection across a range of different ecosystems, and whether econmic cost or groundwater recharge potnetial should be prioritized.</p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <p><img src="images/CDF-teaching-app.jpg" class="img-fluid"></p>
@@ -190,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/CCCE-app.jpg" class="img-fluid"></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<p>Part of the <a href="./projects.html#Central Coast Cumulative Effects">Central Coast Cumulative Effects Project</a> involved using Bayesian network models to predict the cumulative effects of future development scenarios on coastal ecosystems. To help communicate these results I developed an interactive web application that allows users to explore the predicted effects of different development scenarios on each of the focal species that were selected as well as any combination of those species. You can learn about the methods from the <a href="https://doi.org/10.1111/1365-2664.14659">paper</a>, and access the application <a href="https://ubcconservationdecisionslab.shinyapps.io/ccce_app_cc/">here</a>.</p>
+<p>Part of the <a href="projects.qmd#Central Coast Cumulative Effects">Central Coast Cumulative Effects Project</a> involved using Bayesian network models to predict the cumulative effects of future development scenarios on coastal ecosystems. To help communicate these results I developed an interactive web application that allows users to explore the predicted effects of different development scenarios on each of the focal species that were selected as well as any combination of those species. You can learn about the methods from the <a href="https://doi.org/10.1111/1365-2664.14659">paper</a>, and access the application <a href="https://ubcconservationdecisionslab.shinyapps.io/ccce_app_cc/">here</a>.</p>
 </div>
 </div>
 </div>
@@ -618,8 +610,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p><img src="images/salmon.png" class="img-fluid" width="150"></p>
 </div>
     <div class="nav-footer-right">
-      &nbsp;
-    </div>
+<p>Nanaimo, BC</p>
+</div>
   </div>
 </footer>
 

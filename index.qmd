@@ -12,7 +12,7 @@ toc: false
 
 # Welcome
 
-I am a researcher who focuses on producing practical and solutions oriented science. I am particualrly interested in the intersection of decision science, salmon ecology, and spatial analysis and how bringing these disciplines together can help us better understand and steward complex social-ecological systems.
+I am a researcher who focuses on producing practical and solutions oriented science. I am particularly interested in the intersection of decision science, salmon ecology, and spatial analysis and how bringing these disciplines together can help us better understand and steward complex social-ecological systems.
 
 ::: {layout-ncol="3"}
 ### Decision Science
