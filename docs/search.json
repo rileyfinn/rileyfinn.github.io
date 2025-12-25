@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "“All language is but a poor translation.”\n― Franz Kafka\n\nYou can get in touch with me at riley.j.r.finn@gmail.com"
+  },
+  {
+    "objectID": "updates.html",
+    "href": "updates.html",
+    "title": "Updates",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Finn, R. J. R., M. Ned - Kwilosintun, L. Ballantyne, I. Hamilton, J. Kwo, R. Seymour-Hourie, D. Carlson, K.E. Walters, J. Grenz, and T.G. Martin. 2024. Reclaiming the Xhotsa: Climate Adaptation and Ecosystem Restoration via the Return of Sumas Lake. Frontiers in Conservation Science 5: 1380083. https://doi.org/10.3389/fcosc.2024.1380083.\nTulloch, V. J. D., M. Adams, R. Finn, M. Bourbonnais, S. Avery-Gomm, B. Penn, T.G. Martin. 2023. Predicting Regional Cumulative Effects of Future Development on Coastal Ecosystems to Support Indigenous Governance. Journal of Applied Ecology 61(7): 1728–42. https://doi.org/10.1111/1365-2664.14659.\nChalifour, L., C. Holt, A.E. Camaclang, M. Bradford, R. Dixon, R.J.R. Finn, V. Hemming, S.G. Hinch, C.D. Levings, M. MacDuffee, D. Nishimura, M. Pearson, J.D. Reynolds, D.C. Scott, U. Spremberg, S. Stark, J. Stevens, J.K. Baum, and T.G. Martin. 2022. Identifying a pathway toward recovery for depleted wild Pacific salmon populations in a large watershed under multiple stressors. Journal of Applied Ecology 59: 2212-2226. https://doi.org/10.1111/1365-2664.1423964\nFinn, R.J.R., L. Chalifour, S.E. Gergel, S.G. Hinch, D.C. Scott, and T.G. Martin. 2023. Using systematic conservation planning to inform restoration of freshwater habitat and connectivity for salmon. Conservation Science and Practice 5(8): e12973. https://doi.org/10.1111/csp2.12973.\nHemming, V., A.E. Camaclang, M.S. Adams, M. Burgman, K. Carbeck, J. Carwardine, I. Chadès, L. Chalifour, S.J. Converse, L.N.K Davidson, G.E. Garrard, R. Finn, J.R. Fleri, J. Huard, H.J. Mayfield, E.M. Madden, I. Naujokaitis-Lewis, H.P. Possingham, L. Rumpff, M.C. Runge, D. Stewart, V.J.D. Tulloch, T. Walshe, and T.G. Martin. 2022. An Introduction to Decision Science for Conservation. Conservation Biology 36(1): e13868. https://doi.org/10.1111/cobi.13868.\nFinn, R.J.R., L. Chalifour, S.E. Gergel, S.G. Hinch, D.C. Scott, and T.G. Martin. 2021. Quantifying lost and inaccessible habitat for Pacific salmon in Canada’s Lower Fraser River. Ecosphere 12(7): e03646. https://doi.org/10.1002/ecs2.3646."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Riley Finn",
+    "section": "",
+    "text": "I am a researcher in the Conservation Decisions Lab at UBC. I am primarly interested in applying principles of decision analysis to problems of stewarding ecosystems and managing endangered species.\nI work remotely from my home in Snuneymuxw Territory, also known as Nanaimo, British Columbia, Canada. I am originally from Baden, Ontario or the traditional territory of the Chonnonton, Anishnaabeg, Haudenosaunee, and Mississauga peoples.\nI am commited to reconciliation with Indigenous peoples and to supporting Indigenous sovereignty. I believe that achieving these goals requires humility and openness to learning. I have a deep interest in history and how understanding the historical context of the places we live in can help us better understand our role in stewarding them.\nIn my spare time I enjoy mountain biking, gardening, and painting in watercolor."
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "Riley Finn",
+    "section": "",
+    "text": "I am a researcher in the Conservation Decisions Lab at UBC. I am primarly interested in applying principles of decision analysis to problems of stewarding ecosystems and managing endangered species.\nI work remotely from my home in Snuneymuxw Territory, also known as Nanaimo, British Columbia, Canada. I am originally from Baden, Ontario or the traditional territory of the Chonnonton, Anishnaabeg, Haudenosaunee, and Mississauga peoples.\nI am commited to reconciliation with Indigenous peoples and to supporting Indigenous sovereignty. I believe that achieving these goals requires humility and openness to learning. I have a deep interest in history and how understanding the historical context of the places we live in can help us better understand our role in stewarding them.\nIn my spare time I enjoy mountain biking, gardening, and painting in watercolor."
+  },
+  {
+    "objectID": "about.html#cv",
+    "href": "about.html#cv",
+    "title": "Riley Finn",
+    "section": "CV",
+    "text": "CV\n\nSummary of Skills\n\nExtensive experience with GIS analysis in both QGIS and ESRI platforms. Including some development of analytical scripts using Python, map design, and cartography.\nProficiency in the application of R for data carpentry, statistical analysis, and spatial analysis.\nExperience working in a variety of field environments using a range of scientific equipment.\nExperience with management of large datasets and version control including GitHub and Dropbox.\nStrong understanding of the principals of Decision Science and their application for resource management and conservation.\nFluency in English with excellent oral and written communication skills.\n\n\n\nEducation\n\n\nProfessional Experience\n\nLab Technician\nApril 2021-Present\n\nSpatial optimization to support decision making around the protection of diverse ecosystem values including groundwater, big trees, and a range of sensitive ecosystems on Salt Spring Island, BC.\nMapped cumulative effects of threats to multiple culturally significant species on Central Coast, BC.\nImplemented spatial Bayesian models, combining expert knowledge with mapped threats to forecast species health into the future.\nFacilitated expert elicitation discussions to inform the Priority Threat Management process.\nEngaged with ENGOs in the Lower Fraser Region involved in salmon habitat restoration to apply and improve salmon barrier restoration spatial optimization model.\nCoordinated the development of multiple academic papers"
+  },
+  {
+    "objectID": "tools.html",
+    "href": "tools.html",
+    "title": "Interactive Tools",
+    "section": "",
+    "text": "I have a particular interest in extending the products of my research into interactive tools that can be used for teaching and supporting decison making. I believe that many concepts and ideas have been developed within the scientific literature to aid in the managment of cumulative effects but their impact is limited by the tools at our disposal. Decision analysis research often involves the comparisons of mutliple different scenarios with value trade-offs. Intereactive tools allow decision makers to explore these results and how they change across space.\nIn the future I would like to extend this approach into developing systems and work flows that make information stored in ditigal repositories legible to decision makers. I work Primarly in the R language and the Shiny framework for developing these tools. Below are a couple examples of past products with several more currently in development.\n\nTeaching Spatial Optimization\n\n\n\n\n\n\nSpatial optmization is a widely used tool for conservation planning, but it can be a difficult concept to teach. To help with this I developed an interactive web application that allows students to explore how different parameters influence the results of a spatial optimization analysis. Students explore how optimal protected areas change when different values are considered, including protection targets for different ecosystems, and whether econmic cost or groundwater recharge potential should be prioritized. This application is used in the CONS 440 class at the UBC Faculty of Foresty and Resource Stewardship.\n\n\n\n\n\n\n\n\nBayesian Network Cumulative Effects\n\n\n\n\n\n\n\n\n\nBayesian network models can be used to predict the cumulative effects of future development scenarios. To help communicate these results I developed an interactive web application that allows users to explore the predicted effects of different development scenarios on Central Coast of British Columbia on each of the focal species, as well as any combination of those species. You can learn about the methods from the paper, and access the application here."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "“There are no passengers on spaceship earth. We are all crew.”\n― Marshall McLuhan\n\n\n\n\n\nWelcome\nI am a researcher who focuses on producing practical and solutions oriented science. I am particularly interested in the intersection of decision science, salmon ecology, and spatial analysis and how bringing these disciplines together can help us better understand and steward complex social-ecological systems.\n\n\n\n\n\n\nDecision Science\nDecision analysis provides the lense through which I approach problems of conservation and natural resource management. Using this framework helps to ensure that the questions I address are relevant to informing decisons.\n\n\nSalmon and Forests\nSalmon are a keystone species in coastal temperate rainforests. They embody many of challenges inherent in achieving sustainable and productive landscapes that support both human and ecological values.\n\n\nSpatial Analysis and Data\nMany of the challenges we face in stewarding ecosystems are inherently spatial in nature. I use spatial analysis to better understand these systems and to develop tools that can support decision-making."
+  }
+]
