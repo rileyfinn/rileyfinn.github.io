@@ -1,0 +1,293 @@
+---
+title: "Making Maps in R"
+format: html
+editor: visual
+---
+
+## Relevant Packages
+
+```{r}
+library(sf)
+library(dplyr)
+```
+
+The packages that handles tha spatial data is 'sf'. We'll use this package to load some example data for testing out the maps.
+
+```{r}
+
+prov <- st_read("D:/Riley/Documents/Data Library/Admin Boundaries/BC/BC_Exact_3005.shp")
+
+cus <- st_read("D:/Riley/Documents/Data Library/Salmon CUs/Chum_Salmon_CU_Boundary/Chum_Salmon_CU_Boundary_En.shp") %>%
+  filter(CU_name %in% c("Rivers Inlet", "Hecate Lowlands", "Bella Coola-Dean Rivers", "Wannock")) %>%
+  st_transform(., st_crs(prov)) 
+
+rivers <- bcdata::bcdc_query_geodata("https://catalogue.data.gov.bc.ca/dataset/a1b9c58f-c32e-498e-94c1-a6e46ef287b2") %>%
+  filter(INTERSECTS(cus)) %>%
+  bcdata::collect()
+
+```
+
+```{r}
+library(ggplot2)
+library(tmap)
+```
+
+## Map Frameworks
+
+### ggplot2
+
+```{r}
+ggplot(cus) + geom_sf(aes(fill = CU_name))
+```
+
+## tmap
+
+### Layout
+
+"tmap" is probabily the most straight forward package for cartography in R. It uses a simple formula to build up the map based on layering. You can view of the geography of a layer by using the following two lines of code. The first defines the data to be used, while the second defines how it should be displayed. The CU's are polygons so I used tm_shape, and used the CU_name to color the different CUs.
+
+```{r}
+tm_shape(cus) +
+  tm_polygons(fill = "CU_name")
+```
+
+I used this approach fairly often if I'm doing spatial analysis in R just to explore what the data looks like. It can take a while load to load if the data is large!
+
+The next step is to provide some context for the these floating shapes by using the provincial shape file as the base, then layering these CUs on top. Each time I add a new data set I use the tm_shape funtion followed by the function for how to display it.
+
+```{r}
+tm_shape(prov) +
+  tm_polygons(fill = "lightgrey") +
+  tm_shape(cus) +
+  tm_polygons(fill = "CU_name")
+```
+
+The result shows the entire province, which isn't helpful for this purpose. While we want the province to be the first layer of the map, we need set the extent of the map to the CU data.
+
+You can set the extent of the map by first cropping the provincial data to the bounding box of the CUs. Then pipe that result directly into the code above.
+
+```{r}
+st_crop(prov, st_bbox(cus)) %>%
+  tm_shape(.) + 
+  tm_polygons(fill = "lightgrey") +
+  tm_shape(cus) + 
+  tm_polygons(fill = "CU_name")
+```
+
+#### Map Components
+
+\<Relevant sources\>
+
+The legend that tmap automatically generates can be repositioned, and customized. Within the function used to define how the data should be displayed, the 'fill.legend' argument combined with the 'tm_legend' function lets you rename the title, reposition, resize, and various other options. Below, I place the legen on top of the map frame and moved it to the lower left corner. The numbers in the 'tm_pos_on_top' function represent percentages of the overall map where top left corner of the legend should be placed.
+
+```{r}
+st_crop(prov, st_bbox(cus)) %>%
+  tm_shape(.) + 
+  tm_polygons(fill = "lightgrey") +
+  
+  tm_shape(cus) + 
+  tm_polygons(fill = "CU_name",
+              fill.legend = 
+                tm_legend(
+                  position = tm_pos_on_top(0.02, 0.28),
+                  title = "Chum Conservations Units")) 
+
+
+```
+
+We can also add north stars and scale bars if they are required for the kind of map that you are making. Each of these has a dedicated function. Each function comes with many differen options for customizing their look and positon. See for more information.
+
+```{r}
+st_crop(prov, st_bbox(cus)) %>%
+  tm_shape(.) + 
+  tm_polygons(fill = "lightgrey") +
+  
+  tm_shape(cus) + 
+  tm_polygons(fill = "CU_name",
+              fill.legend = 
+                tm_legend(
+                  position = tm_pos_on_top(0.02, 0.28),
+                  title = "Chum Conservations Units")) +
+  tm_compass() +
+  tm_scalebar()
+
+
+```
+
+#### Inset Maps
+
+tmap also provides dedicated functions that make adding inset maps very easy. Here the Wannok CU is quite small and could be missed, we can create an inset to call attention to that area.
+
+```{r}
+
+st_crop(prov, st_bbox(cus)) %>%
+  tm_shape(.) + 
+  tm_polygons(fill = "lightgrey") +
+  
+  tm_shape(cus) + 
+  tm_polygons(fill = "CU_name",
+              fill.legend = 
+                tm_legend(
+                  position = tm_pos_on_top(0.02, 0.28),
+                  title = "Chum Conservations Units")) +
+  tm_compass() +
+  tm_scalebar() +
+  
+  tm_inset(st_bbox(st_buffer(filter(cus, CU_name == "Wannock"), 500)), 
+           position = c("top", "right"),
+           box_frame.color = "black")
+
+
+
+```
+
+### Organization
+
+Now that we have the components we can begin to place them so that there a re no overlaps and overall map is easy to read. the `{r}tm_layout` function is useful for that. I generally like to get all the components I want in the map before I get to concerned with placement. As you can see it will be best to move the legend to top right and the inset closer to it's subject in the bottom left.
+
+```{r}
+
+st_crop(prov, st_bbox(cus)) %>%
+  tm_shape(.) + 
+  tm_polygons(fill = "lightgrey") +
+  
+  tm_shape(cus) + 
+  tm_polygons(fill = "CU_name",
+              fill.legend = 
+                tm_legend(
+                  position = tm_pos_on_top(0.65, 0.97),
+                  title = "Chum Conservations Units",
+                  frame = FALSE,
+                  bg = FALSE)) +
+  tm_compass() +
+  tm_scalebar() +
+  
+  tm_inset(st_bbox(st_buffer(filter(cus, CU_name == "Wannock"), 500)), 
+           position = c("bottom", "left"),
+           box_frame.color = "black") +
+  
+  tm_layout()
+
+
+
+```
+
+```{r}
+
+st_crop(prov, st_bbox(cus)) %>%
+  tm_shape(.) + 
+  tm_polygons(fill = "lightgrey") +
+  
+  tm_shape(cus) + 
+  tm_polygons(fill = "CU_name",
+              fill.legend = 
+                tm_legend(
+                  position = tm_pos_on_top(0.65, 0.97),
+                  title = "Chum Conservations Units",
+                  frame = FALSE,
+                  bg = FALSE)) +
+  tm_compass() +
+  tm_scalebar() +
+  
+  tm_inset(st_bbox(st_buffer(filter(cus, CU_name == "Wannock"), 500)), 
+           position = c("bottom", "left"),
+           box_frame.color = "black") +
+  
+  tm_layout() +
+  
+  tm_shape(st_crop(rivers, st_bbox(st_buffer(cus, 300)))) +
+  tm_lines(lwd = 0.5,
+           col = "lightblue") +
+  
+  tm_shape()
+```
+
+Add a scale bar and north arrow for
+
+### Symbology and Styling
+
+<https://r-graph-gallery.com/color-palette-finder>
+
+I like to use the `{r}paletteer` package for manaing colors
+
+```{r}
+
+library(paletteer)
+
+pal <- paletteer::paletteer_d("MetBrewer::Egypt")
+
+pal <- pal[1:length(unique(cus$CU_name))]
+
+st_crop(prov, st_bbox(cus)) %>%
+  tm_shape(.) + 
+  tm_polygons(fill = "grey") +
+  
+  tm_shape(cus) + 
+  tm_polygons(fill = "CU_name",
+              fill.scale = 
+                tm_scale(
+                  palette = pal
+                ),
+              fill.legend = 
+                tm_legend(
+                  position = tm_pos_on_top(0.65, 0.97),
+                  title = "Chum Conservations Units",
+                  frame = FALSE,
+                  bg = FALSE)) +
+  tm_compass() +
+  tm_scalebar() +
+  
+  tm_inset(st_bbox(st_buffer(filter(cus, CU_name == "Wannock"), 500)), 
+           position = c("bottom", "left"),
+           box_frame.color = "black") +
+  
+  tm_layout() +
+  
+  tm_shape(st_crop(rivers, st_bbox(st_buffer(cus, 300)))) +
+  tm_lines(lwd = 0.5,
+           col = "lightblue") +
+  
+  tm_shape(st_crop(prov, st_bbox(cus))) + 
+  tm_borders()
+
+
+```
+
+### Basemaps
+
+```{r}
+# st_crop(prov, st_bbox(cus)) %>%
+#   tm_shape(.) + 
+#   tm_polygons(fill = "grey",
+#               fill_alpha = 0.5) +
+  
+  tm_shape(cus) + 
+  tm_polygons(fill = "CU_name",
+              fill.scale = 
+                tm_scale(
+                  palette = pal
+                ),
+              fill.legend = 
+                tm_legend(
+                  position = tm_pos_on_top(0.65, 0.97),
+                  title = "Chum Conservations Units",
+                  frame = FALSE,
+                  bg = FALSE),
+              fill_alpha = 0.7) +
+  tm_compass() +
+  tm_scalebar() +
+  
+  tm_inset(st_bbox(st_buffer(filter(cus, CU_name == "Wannock"), 500)), 
+           position = c("bottom", "left"),
+           box_frame.color = "black") +
+  
+  tm_basemap("Esri.OceanBasemap")
+```
+
+## GGPlot
+
+I haven't made many maps with ggplot but
+
+<https://bookdown.org/nicohahn/making_maps_with_r5/docs/ggplot2.html>
+
+<https://upgo.lab.mcgill.ca/2019/12/13/making-beautiful-maps/>
