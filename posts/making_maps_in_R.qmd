@@ -4,6 +4,8 @@ description: "A brief overview of how to start making maps in R"
 author: Riley Finn
 date: "5/5/2026"
 image: /images/simple-map.png
+execute:
+  freeze: TRUE
 ---
 
 ## Why use R to make maps?

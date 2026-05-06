@@ -6,6 +6,7 @@ website:
   title: "Riley Finn"
   navbar:
     logo: images/salmon.png
+    favicon: images/salmon.png
     left:
       - href: index.qmd
         text: Home
