@@ -17,36 +17,156 @@ In my spare time I enjoy mountain biking, gardening, and painting in watercolor.
 
 ## CV
 
-### Summary of Skills
+### Summary of Skills and Experience
 
--   Extensive experience with GIS analysis in both QGIS and ESRI platforms. Including some development of analytical scripts using Python, map design, and cartography.
+-   Extensive experience applying R for data carpentry, statistical analysis, and spatial analysis.
 
--   Proficiency in the application of R for data carpentry, statistical analysis, and spatial analysis.
+-   Extensive experience with GIS analysis and cartography in both QGIS and ESRI platforms.
 
--   Experience working in a variety of field environments using a range of scientific equipment.
+-   Experience with management of large datasets and version control including GitHub.
 
--   Experience with management of large datasets and version control including GitHub and Dropbox.
+-   Led diverse teams towards the development of interdisciplinary scientific projects.
 
--   Strong understanding of the principals of Decision Science and their application for resource management and conservation.
+-   Strong understanding of Decision Science and application for stewardship and conservation.
 
--   Fluency in English with excellent oral and written communication skills.
+-   Experience working in a variety of field environments using a range of scientific equipment
+
+-   Excellent oral and written communication skills.
 
 ### Education
 
+-   **2021 M.Sc. University of British Columbia**
+
+*Thesis Title:* Defining an historical baseline and charting a path to restoring habitat connectivity for salmonids in a highly urbanized landscape
+
+Supervisors: Tara Martin (PI), Sarah Gergel (UBC), Scott Hinch (UBC)
+
+University of British Columbia\
+Department of Forest and Conservation Sciences\
+Faculty of Forestry
+
+-   **2018 B.Sc. University of British Columbia**
+
+University of British Columbia\
+Department of Forest and Conservation Sciences\
+Faculty of Forestry
+
 ### Professional Experience
 
-#### Lab Technician
+**Lab Technician - Conservation Decisions Lab (UBC)** April 2021-Present
 
-April 2021-Present
+-   Led diverse and interdisciplinary teams through development and publication of multiple peer-reviewed publications.
 
 -   Spatial optimization to support decision making around the protection of diverse ecosystem values including groundwater, big trees, and a range of sensitive ecosystems on Salt Spring Island, BC.
 
--   Mapped cumulative effects of threats to multiple culturally significant species on Central Coast, BC.
+-   Mapped cumulative effects of threats to multiple culturally significant species on Central Coast, BC,
 
 -   Implemented spatial Bayesian models, combining expert knowledge with mapped threats to forecast species health into the future.
 
 -   Facilitated expert elicitation discussions to inform the Priority Threat Management process.
 
--   Engaged with ENGOs in the Lower Fraser Region involved in salmon habitat restoration to apply and improve salmon barrier restoration spatial optimization model.
+-   Experience with literature synthesis and meta-analysis.
 
--   Coordinated the development of multiple academic papers
+**Research Associate – Raincoast Conservation Foundation** June 2017- Jan. 2019
+
+-   Built relationships with over 30 stewardship groups that preform salmon restoration work on Fraser River tributaries.
+
+-   Collated existing data sets and mapping information related to salmon and salmon habitat and visualized these data sets for public viewing using ArcGIS Web Map Applications.
+
+-   Assisted with purse and beach seining in the Fraser Estuary.
+
+-   Used Trimble GPS system to map islands and the leading edge of Fraser Estuary marsh.
+
+**Undergraduate Researcher – Landscapes and Livelihoods Lab (UBC)** Jan. 2017 - April. 2017
+
+-   Reviewed literature regarding the impact assessments of protected areas globally.
+
+-   Developed and distributed survey to assess protected area success across gradient of protected status
+
+**Research Assistant – Agriculture and Agri-Food Canada** Sept. 2016 - Dec. 2016
+
+-   Organized and combined 5 years of 15-minute weather data to create a continuous database of over 500,000 temperature and humidity measurements.
+
+-   Combined seasonal abundance and GPS data to map *D. suzukii* movement within an orchard over time.
+
+**Research Assistant – Queen Elizabeth Scholarships (Kerala Agricultural University/UBC)** May 2016 - Aug. 2016
+
+-   Preformed insect and amphibian surveys in organic and conventional rice fields across southern India.
+
+**Research Assistant – Forest Insect Disturbance Ecology Lab (UBC)** May 2016 - Aug. 2016
+
+-   Preformed mountain pine beettle surveys throughout northern Alberta.
+
+**Forestry Intern – Weyerhaeuser** May 2014 - Aug. 2014
+
+-   Surveyed planted cut-blocks to determine seedling survival, and future planting needs.
+
+-   Used personal GPS system to map survey routes, riparian setbacks, and other landscape features.
+
+-   Carried out fieldwork in active logging areas independently, with safety protocols in mind.
+
+### Awards
+
+M.Sc. in Forestry
+
+-   2019 NSERC Canada Graduate Scholarship Master's Award (\$17500)
+
+-   2019 Mitacs Accelerate (\$30000)
+
+-   2019 Canfor Corporation Fellowship in Forest Ecosystem Management (\$2500)
+
+-   2018 Strategic Recruitment Fellowship 2-years (\$12000)
+
+B.Sc. Natural Resources Conservation
+
+-   2018 Clark S. Binkley Award for outstanding contributions to the Natural Resources Conservation Mj. Science and Management Program
+
+-   2017 Graduating Class of Forestry 1957 Prize (\$400)
+
+-   2017 Dean of Forestry Scholarship (\$1250)
+
+-   2016 Queen Elizabeth Scholar, Diamond Jubilee Scholarships (\$5000)
+
+-   2016 Go Global International Learning Programs Award (\$1000)
+
+-   2015 Go Global Award: Global Seminar Programs (\$1000)
+
+-   2015 Dean of Forestry Scholarship (\$500)
+
+-   2015 Jim and Gerry McIntosh award in Forestry (\$1150)
+
+-   2015 Hugh Robert Duncan Chisholm Scholarship in Forestry (\$800)
+
+-   2014 FPAC Green Dream Internship Blog Scholarship (\$400)
+
+### Teaching Experience
+
+**CONS 450 - Conservation Field School (UBC)** Oct. 2021-2025
+
+-   Collated relevant spatial datasets for landscape planning GIS assignment. 
+
+-   Created and delivered high-level GIS refresher lecture and associated lab exercise.
+
+**CONS 440/504 – Conservation Decision Making and Policy (UBC)** Sept. 2020 - Dec. 2020
+
+-   Developed a Shiny App and lab activity for the purposes of teaching the principals of systematic conservation planning.
+
+-   Managed online learning materials and environment.
+
+-   Tracked student participation and graded assignments.
+
+-   Managed scheduling and admin related to the provision of virtual classes through Zoom.
+
+### Conference Presentations
+
+**Finn, R.J.R**., V.J.D. Tulloch, M. Adams, M. Bourbonnais, S. Avery-Gomm, B. Penn, and T. G. Martin. (June 2024). Working with Indigenous knowledge-centered assessment frameworks to predict cumulative effects on salmon-linked species and inform ecosystem-based management. Presentation at the North American Congress for Conservation Biology. Vancouver, BC, Canada.
+
+**Finn, R.J.R**., L. Chalifour, S. Gergel, S. Hinch, D. Scott, and T.G. Martin. (February 2024). Using systematic conservation planning to inform restoration of freshwater habitat and connectivity for salmon. Presentation for the American Fisheries Society Fish Passage Working Group. Online.
+
+**Finn, R.J.R**., L. Chalifour, S. Gergel, S. Hinch, D. Scott, and T.G. Martin. (August 2022). Using systematic conservation planning to inform restoration of freshwater habitat and connectivity for salmon. Presentation at the Ecological Society of America and Canadian Society for Ecology and Evolution conference. Montreal, QC, Canada.
+
+**Finn, R. J. R.** 2022, Feb. 26. Using systematic conservation planning to inform restoration of freshwater habitat and connectivity for salmon. 2022 Canadian Conference for Fisheries Research. Oral Presentation.
+
+**Finn, R. J. R.** 2021, Feb. 18. Prioritizing barrier removal using systematic conservation planning. 2021 Pacific Ecology and Evolution Conference. Oral Presentation.
+
+**Finn, R. J. R.** 2020, Feb. 22.  Quantifying historical salmon floodplain and stream habitat in the Lower Fraser River to inform restoration targets and priorities. 2020 Pacific Ecology and Evolution Conference. Oral Presentation.

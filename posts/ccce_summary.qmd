@@ -1,9 +1,13 @@
 ---
 title: "Mapping cumulative effects for the salmon forest"
+description: "A summary of our recent paper on cumultative effects and Indigenous-led ecosystem-based management"
+author: "Riley Finn"
+image: /images/cc_cumulative_effects.png
 draft: TRUE
 ---
 
-## Front matter context
-Here I will write a plain languge summary of the Cumulative effects paper that I wrote.
+## Assessing cumulative effects to support Indigenous-led ecosystem-based management in salmon watersheds
 
+Pacific salmon rely on freshwater habitats to complete their life cycle, adults spawn in cool, clear, well oxygenated rivers where their eggs are incubated before hatching. Upon emergence, juvenile salmon spend time in those rivers and creeks where the surrounding forest keeps the rivers cool in the summer, and large old trees that have fallen into the creeks provide places to hide from predators. They then migrate to the ocean where they grow to adult size, eventually returning carrying with them nutrients from the ocean that feed wildlife like bears, they fertilize the forest, and sustain human communities. Indigenous communities on Central Coast of British Columbia have been living with salmon from time immemorial in a relationship characterized by reciprocity and an ethic of care. From the onset of European colonization, this relationship has been disrupted along with many of the conditions that allow salmon to thrive. The development of extractive industries including fisheries, forestry, mining and aquaculture, along with global changes in climate all influence the health of salmon and the condition of the habitats they rely on. Understanding what these pressures are, and how and where they impact salmon is important for managing and stewarding thriving salmon populations that sustain community and culture. 
 
+To understand the extent of human activities that impact salmon habitats and the associated species that rely on salmon, we spoke with members of three communities on the Central Coast – the Kitasoo Xais’xai, the Nuxalk, and Wuikiunv

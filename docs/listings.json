@@ -1,6 +1,8 @@
 [
   {
     "listing": "/updates.html",
-    "items": []
+    "items": [
+      "/posts/making_maps_in_R.html"
+    ]
   }
 ]

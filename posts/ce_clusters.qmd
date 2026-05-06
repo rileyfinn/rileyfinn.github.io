@@ -1,8 +1,11 @@
 ---
 title: "Clustering Cumulative Effects"
+description: "A summary of the recent paper led by Spencer Dakin Kuiper on clustering cumulative effects into archetypal salmon watersheds"
+author: "Riley Finn"
+image: /images/salmon_archetypes.png
 draft: TRUE
 ---
 
 ## Clustering of Cumulative Effects
 
-One of the most vexing challenges in cumulative effects management is the complexity that comes with so many different human activities and the stressors they produce, whether those stressor interact, and the resulting impact that those stressors and their interactions have on species that we care about. For example, the 
+One of the most vexing challenges in cumulative effects management is the complexity that comes with so many different human activities and the stressors they produce, whether those stressors interact, and the resulting impact that those stressors and their interactions have on species that we care about. For example, the

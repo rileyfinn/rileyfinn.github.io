@@ -25,5 +25,11 @@
   },
   "posts/ce_clusters.qmd": {
     "ce_clusters.html": "e37d8871"
+  },
+  "posts/making_maps_in_R.qmd": {
+    "making_maps_in_R.html": "4132d246"
+  },
+  "posts/monitoring_bc_old_gorwth_pt1.qmd": {
+    "monitoring_bc_old_gorwth_pt1.html": "8e578445"
   }
 }

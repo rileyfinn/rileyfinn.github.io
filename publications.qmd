@@ -6,6 +6,12 @@ title: "Publications"
 ![](images/paper.png)
 :::
 
+**Finn, R.J.R.**, T.G. Martin, V. Tulloch, A. Murdoch, S. Lyons, W. Moir, M. Milligan, E.B.J. MacDonald, and C. Mantyka-Pringle. 2026. A systematic review of ecological thresholds for salmon watersheds. *Environmental Reviews. In Review.*
+
+**Finn, R.J.R.**, M.S. Adams, V.J. Tulloch, C. Service, J. Moody, J. Slade, S. Avery-Gomm, M.L. Bourbonnais, B. Penn, and T.G. Martin. 2026. Assessing cumulative effects to support Indigenous-led ecosystem-based management in salmon watersheds. FACETS. <https://doi.org/10.1139/facets-2025-0082>.
+
+Dakin-Kuiper, S., J.W. Moore, **R.J.R. Finn**, N.C. Sainsbury, D. C. Whited, and T.G. Martin. 2026. Salmon watershed archetypes: a clustering of cumulative pressures and climate change. Ecological Solutions and Evidence. <https://doi.org/10.1002/2688-8319.70200>.
+
 **Finn, R. J. R**., M. Ned - Kwilosintun, L. Ballantyne, I. Hamilton, J. Kwo, R. Seymour-Hourie, D. Carlson, K.E. Walters, J. Grenz, and T.G. Martin. 2024. Reclaiming the Xhotsa: Climate Adaptation and Ecosystem Restoration via the Return of Sumas Lake. *Frontiers in Conservation Science* 5: 1380083. <https://doi.org/10.3389/fcosc.2024.1380083>.
 
 Tulloch, V. J. D., M. Adams, **R. Finn**, M. Bourbonnais, S. Avery-Gomm, B. Penn, T.G. Martin. 2023. Predicting Regional Cumulative Effects of Future Development on Coastal Ecosystems to Support Indigenous Governance. *Journal of Applied Ecology* 61(7): 1728–42. <https://doi.org/10.1111/1365-2664.14659>.

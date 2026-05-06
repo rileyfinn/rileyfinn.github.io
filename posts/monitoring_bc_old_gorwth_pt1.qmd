@@ -1,0 +1,13 @@
+---
+title: "Monitoring BC Old Growth Pt. 1"
+description: "Developing shiny applications that visualize public data."
+author: "Riley Finn"
+image: /images/oldgrowth_app_1.jpg
+draft: TRUE
+---
+
+## Old Growth Assessments
+
+The provincial
+
+![](images/oldgrowth_app_1.jpg)
