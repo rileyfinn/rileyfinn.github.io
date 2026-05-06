@@ -2,7 +2,10 @@
   {
     "listing": "/updates.html",
     "items": [
-      "/posts/making_maps_in_R.html"
+      "/posts/making_maps_in_R.html",
+      "/posts/ccce_summary.html",
+      "/posts/ce_clusters.html",
+      "/posts/monitoring_bc_old_gorwth_pt1.html"
     ]
   }
 ]
