@@ -17,7 +17,7 @@ I am a researcher who focuses on producing practical and solutions oriented scie
 ::: {layout-ncol="3"}
 ### Decision Science
 
-Decision analysis provides the lense through which I approach problems of conservation and natural resource management. Using this framework helps to ensure that the questions I address are relevant to informing decisons.
+Decision analysis provides the lens through which I approach problems of conservation and natural resource management. Using this framework helps to ensure that the questions I address are relevant to informing decisions.
 
 ### Salmon and Forests
 

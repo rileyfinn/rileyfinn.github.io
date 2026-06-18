@@ -3,14 +3,14 @@ title: "Interactive Tools"
 toc: FALSE
 ---
 
-I have a particular interest in extending the products of my research into interactive tools that can be used for teaching and supporting decison making. I believe that many concepts and ideas have been developed within the scientific literature to aid in the managment of cumulative effects but their impact is limited by the tools at our disposal. Decision analysis research often involves the comparisons of mutliple different scenarios with value trade-offs. Intereactive tools allow decision makers to explore these results and how they change across space.
+I have a particular interest in extending the products of my research into interactive tools that can be used for teaching and supporting decision making. I believe that many concepts and ideas have been developed within the scientific literature to aid in the management of cumulative effects but their impact is limited by the tools at our disposal. Decision analysis research often involves the comparisons of multiple different scenarios with value trade-offs. Interactive tools allow decision makers to explore these results and how they change across space.
 
-In the future I would like to extend this approach into developing systems and work flows that make information stored in ditigal repositories legible to decision makers. I work Primarly in the R language and the Shiny framework for developing these tools. Below are a couple examples of past products with several more currently in development.
+In the future I would like to extend this approach into developing systems and work flows that make information stored in digital repositories legible to decision makers. I work primarily in the R language and the Shiny framework for developing these tools. Below are a couple examples of past products with several more currently in development.
 
 ### Teaching Spatial Optimization
 
 ::: {layout-ncol="2"}
-Spatial optmization is a widely used tool for conservation planning, but it can be a difficult concept to teach. To help with this I developed an interactive web application that allows students to explore how different parameters influence the results of a spatial optimization analysis. Students explore how optimal protected areas change when different values are considered, including protection targets for different ecosystems, and whether econmic cost or groundwater recharge potential should be prioritized. This application is used in the CONS 440 class at the UBC Faculty of Foresty and Resource Stewardship.
+Spatial optimization is a widely used tool for conservation planning, but it can be a difficult concept to teach. To help with this I developed an interactive web application that allows students to explore how different parameters influence the results of a spatial optimization analysis. Students explore how optimal protected areas change when different values are considered, including protection targets for different ecosystems, and whether economic cost or groundwater recharge potential should be prioritized. This application is used in the CONS 440 class at the UBC Faculty of Forestry and Resource Stewardship.
 
 ![](images/CDF-teaching-app.jpg)
 :::

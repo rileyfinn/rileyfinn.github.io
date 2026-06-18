@@ -1,6 +1,6 @@
 ---
 title: "Clustering Cumulative Effects"
-description: "A summary of the recent paper led by Spencer Dakin Kuiper on clustering cumulative effects into archetypal salmon watersheds"
+description: "Are there archetypal salmon watersheds?"
 author: "Riley Finn"
 image: /images/salmon_archetypes.png
 draft: TRUE
@@ -8,4 +8,4 @@ draft: TRUE
 
 ## Clustering of Cumulative Effects
 
-One of the most vexing challenges in cumulative effects management is the complexity that comes with so many different human activities and the stressors they produce, whether those stressors interact, and the resulting impact that those stressors and their interactions have on species that we care about. For example, the
+There are many ways that human activities within watersheds can impact salmon and their habitats, and there are many different human activities that can combine to produce outcomes that are hard to predict. For example, there has been plenty of research on the effects of forest harvest can influence the temperature of the water, the rate at which precipitation moves enters the stream, and the potential for fine sediments to enter the stream, mining can introduce contaminants, agriculture draws down the water table and introduces nutrients, urbanization and impervious surfaces prevent water from filtering into ground water and surface flows change water quality and hydrological regimes. This is just a sample of activities that take place across watersheds that can influence salmon life cycles. The intensities and combinations of all of these changes to environment varies across the landscape from one valley to the next.
